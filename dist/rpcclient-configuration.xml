@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>RPC Client Configuration</comment>
+<entry key="port">8899</entry>
+<entry key="isValidating">false</entry>
+<entry key="host">localhost</entry>
+<entry key="XSdSchema">tabla.xsd</entry>
+</properties>

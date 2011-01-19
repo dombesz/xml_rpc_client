@@ -1,0 +1,74 @@
+<?xml version="1.0" encoded="ISO-8859-2">
+<dbase name="AKARMI_ADATBAZIS>
+   <table name="ELSO_TABLA">
+      <fields>
+         <field>
+            <name> ELSO_1 </name>
+            <type> CHAR </type>
+            <size> 4 </size>
+            <nul> N </nul>
+            <def>AAAA</def> <!-- default ertek -->
+         </field>
+         <field>
+            <name> ELSO_2 </name>
+            <type> VARCHAR </type>
+            <size> 4 </size>
+            <nul> Y </nul>
+            <def></def>
+         </field>   
+         <field>
+            <name> ELSO_3 </name>
+            <type> NUMBER </type>
+            <size> 8.2 </size>
+            <nul> Y </nul>
+            <def>0</def>
+         </field>    
+      </fields>
+      <indexes> 
+        <index>
+            <name> ELSO_INDEX_1 </name>
+            <columns>
+               <column>ELSO_1</column>
+               <column>ELSO_3</column>
+            </columns>
+            <unic> Y </unic>
+            <desc> N </desc> <!-- rendezes: descendent (Y), ascendent (N) -->
+         </index>   
+        <index>
+            <name> ELSO_INDEX_2 </name>
+            <columns>
+               <column>ELSO_2</column>
+              </columns>
+            <unic> N </unic>
+            <desc> Y </desc>
+         </index>   
+      </indexes>
+   </table>
+ <table name="MASOD_TABLA">
+      <fields>
+         <field>
+            <name> MASOD_1 </name>
+            <type> CHAR </type>
+            <size> 20 </size>
+            <nul> N </nul>
+            <def>AAAA</def>
+         </field>
+         <field>
+            <name> MASOD_2 </name>
+            <type> BLOB </type>
+            <nul> Y </nul>
+            <def></def>
+         </field>   
+      </fields>
+      <indexes> 
+        <index>
+            <name> MASOD_INDEX_1 </name>
+            <columns>
+               <column>MASOD_1</column>
+            </columns>
+            <unic> Y </unic>
+            <desc> N </desc>
+         </index>   
+      </indexes>
+   </table>
+</dbase>

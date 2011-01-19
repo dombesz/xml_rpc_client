@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Table colCount="5" name="comments">
+<tableInfo>
+<columnInfo>
+<column count="1">
+<name>id</name>
+<type>INT</type>
+<length>11</length>
+<null>0</null>
+<autoinc>true</autoinc>
+</column>
+<column count="2">
+<name>post_id</name>
+<type>INT</type>
+<length>10</length>
+<null>1</null>
+<autoinc>false</autoinc>
+</column>
+<column count="3">
+<name>body</name>
+<type>VARCHAR</type>
+<length>21845</length>
+<null>1</null>
+<autoinc>false</autoinc>
+</column>
+<column count="4">
+<name>created_at</name>
+<type>DATETIME</type>
+<length>19</length>
+<null>1</null>
+<autoinc>false</autoinc>
+</column>
+<column count="5">
+<name>updated_at</name>
+<type>DATETIME</type>
+<length>19</length>
+<null>1</null>
+<autoinc>false</autoinc>
+</column>
+</columnInfo>
+<pkeyInfo>
+<primarykey count="1">id</primarykey>
+</pkeyInfo>
+<indexInfo>
+<index count="1" name="PRIMARY" sequence="A">id</index>
+</indexInfo>
+</tableInfo>
+<rowInfo rowCount="1">
+<row count="1">
+<id>1</id>
+<post_id>2</post_id>
+<body>asd</body>
+<created_at>2009-06-08 22:03:22.0</created_at>
+<updated_at>2009-06-08 22:03:22.0</updated_at>
+</row>
+</rowInfo>
+</Table>
